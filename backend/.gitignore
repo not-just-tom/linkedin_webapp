@@ -1,0 +1,23 @@
+#venv
+venv/
+venv*/
+.Python
+bin/
+include/
+lib/
+lib64/
+pip-selfcheck.json
+
+#IDE
+.vscode/
+.idea/
+*.iml
+*.pyc
+
+#Env Var
+.env
+
+emails.db
+
+node_modules/
+/dist/
