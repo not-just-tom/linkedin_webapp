@@ -1,0 +1,32 @@
+
+ 
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(frontend\src\RobotoCondensed-VariableFont_wght.ttf) format('ttf');
+   }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    scroll-behavior: smooth;
+
+    color: white;
+}
+
+html {
+    height:100%;
+    background: 
+    radial-gradient(ellipse at 37% 100%, #316b29 0%, #00D44F00 45%),
+    radial-gradient(ellipse at 0% 0%, #CA1464 0%, #0A054D00 25%),
+    radial-gradient(circle at 78% 0%, #0A054D 1%, #D41E1E 89%);
+    font-family:'Roboto';
+}
+
+body {  
+    height: fit-content;
+    background-attachment: scroll;
+    background-size: cover;
+    
+}

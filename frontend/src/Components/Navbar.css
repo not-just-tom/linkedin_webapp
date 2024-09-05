@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+Link {
+    margin-right: 10px;
+    margin-left: 10px;
+}

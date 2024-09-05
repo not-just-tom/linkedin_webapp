@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, createBrowserRouter } from 'react-router-dom'
+import "./App.css";
 
 import { Home } from "./Pages/home"
 import { Projects } from "./Pages/Projects"
@@ -10,18 +11,22 @@ function App() {
 
 
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route  element={<Layout/>}>
-            <Route path="/" element={<Home/>} />
-            <Route path="/About" element={<About/>} />
-            <Route path="/Projects" element={<Projects/>} />
-          </Route>
-        </Routes>
+    <div className='App'>
+      <div className='gradient__bg1'>
+      <Router>
+        <div className="Routes">
+          <Routes>
+            <Route  element={<Layout/>}>
+              <Route path="/" element={<Home/>} />
+              <Route path="/About" element={<About/>} />
+              <Route path="/Projects" element={<Projects/>} />
+            </Route>
+          </Routes>
+        </div>
+      </Router>
       </div>
-    </Router>
-  );
+    </div>
+  )
 }
 
 export default App
