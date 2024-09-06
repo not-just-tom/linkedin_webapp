@@ -1,0 +1,14 @@
+header {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+content {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 14%;
+}
+
+job {
+    font-size: 20px;
+}

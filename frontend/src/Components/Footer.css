@@ -1,0 +1,8 @@
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-inline: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

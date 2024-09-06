@@ -5,20 +5,18 @@ import "./Navbar.css";
 
 export function Navbar() {
     return (
-        <div className="navbar">
-            <ul className="nav-links">
-                <Link to="/">
-                    Home
-                </Link>
-                
-                <Link to="/About">
-                    About
-                </Link>
-                
-                <Link to="/Projects">
-                    Projects
-                </Link>
-            </ul>
+        <div className="navbar">    
+            <Link to="/">
+                Home
+            </Link>
+            
+            <Link to="/About">
+                About
+            </Link>
+            
+            <Link to="/Projects">
+                Projects
+            </Link>
         </div>
         
     );

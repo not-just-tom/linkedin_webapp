@@ -22,11 +22,20 @@ html {
     radial-gradient(ellipse at 0% 0%, #CA1464 0%, #0A054D00 25%),
     radial-gradient(circle at 78% 0%, #0A054D 1%, #D41E1E 89%);
     font-family:'Roboto';
+    background-attachment: fixed;
+    text-align: center;
+
 }
 
 body {  
-    height: fit-content;
-    background-attachment: scroll;
-    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     
+}
+
+footer {
+    min-height: 50px;
+    margin-top: auto;
 }
