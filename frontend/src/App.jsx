@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, createBrowserRouter } from 'react-router-dom'
 import "./App.css";
 
+
 import { Home } from "./Pages/home"
 import { Projects } from "./Pages/Projects"
 import { About } from "./Pages/About"
@@ -12,7 +13,9 @@ function App() {
 
 
   return (
+
     <body>
+      
       <div className='content'>
         <Router>
           <div className="Routes">
