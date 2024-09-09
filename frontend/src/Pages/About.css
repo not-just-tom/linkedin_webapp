@@ -6,13 +6,14 @@
 header {
     font-family: 'Roboto';
     font-weight: bold;
-    font-size: 48px;
+    font-size: calc();
 }
 
 content {
     display: flex;
     justify-content: space-between;
-    margin-inline: 14%;
+    margin-right: auto;
+    margin-left:auto;
 }
 
 job {
