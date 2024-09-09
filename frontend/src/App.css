@@ -108,6 +108,7 @@ html {
     font-family:'Roboto';
     background-attachment: fixed;
     text-align: center;
+    font-size: calc(1em + 1vw);
 
 }
 
