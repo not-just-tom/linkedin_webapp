@@ -1,0 +1,94 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :)",
+          "What can I do for you?",
+          "How can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "qualifications",
+        "patterns": [
+          "What degrees do you have?",
+          "What did you study",
+          "What did he study",
+          "What did they study",
+          "Where did you study",
+          "What kind of degree do you have",
+          "What is your degree",
+          "What are his degrees in",
+          "Where did he study",
+          "Where did they study",
+          "Tell me about the degrees"
+        ],
+        "responses": [
+          "Tom first studied Mathematics at the University of Oxford, then moved to the University of Bath to continue their studies into Mathematics with Data Science, where they are currently studying. You can ask me more about the scholarships they were awarded at both institutions if you want!"
+        ]
+      },
+      {
+        "tag": "scholarship",
+        "patterns": [
+          "Tell me about his scholarships",
+          "Tell me about your scholarships",
+          "What kind of scholar are you",
+          "Did you get financial help as a scholar",
+          "What are your scholarships"
+        ],
+        "responses": [
+          "In Bath, Tom has been awarded the 'Global Leader Scholarship' and £5,000 off their tutition fees for recognition of his contributions to leadership positions worldwide, as well as their work volunteering internationally. They were also awarded a grant of £3,000 as an 'Expanding Horizons Scholar' whilst studing at Oxford to fund a 3 month trip to Lima, Peru to teach Mathematics to students."
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "CV",
+        "patterns": [
+          "Talk about the CV",
+          "Tell me about the CV",
+          "CV",
+          "Tell me about their CV",
+          "Tell me about your CV",
+          "Where is his CV",
+          "What is your CV like"
+          
+        ],
+        "responses": [
+          "You can find a link the pdf form of Tom's CV on the Abouts page - Tom will code me to give it directly to you soon!"
+        ]
+      }
+    ]
+  }

@@ -1,6 +1,11 @@
 from app import app, db
 from flask import request, jsonify
 from models import Member
+from chatbot.chat import get_response
+
+# chatbot functions
+
+#
 
 # Get all members
 @app.route("/api/members",methods=["GET"])

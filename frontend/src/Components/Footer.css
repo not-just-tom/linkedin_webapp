@@ -6,3 +6,11 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+email {
+    color: black
+}
+
+email:hover { 
+    content: attr(title); 
+} 

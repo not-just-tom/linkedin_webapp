@@ -1,0 +1,31 @@
+phil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size:xx-large;
+}
+
+input {
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    width: 50%;
+    height: 3em;
+    background-color: var(--background-col);
+    color: white;
+    border: none;
+}
+
+textbox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input::placeholder {
+    font-size: 1em;
+    color: white;
+}
+

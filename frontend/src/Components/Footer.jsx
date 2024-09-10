@@ -7,9 +7,9 @@ const Footer = () => {
             <div>
                 <a href="https://www.linkedin.com/in/thomas-shotton/">Linkedin</a>
             </div>
-            <div>
-                Email input
-            </div>
+            <email title="gay">
+                Email
+            </email>
             <div>
                 <a href="https://github.com/not-just-tom">Github</a>
             </div>

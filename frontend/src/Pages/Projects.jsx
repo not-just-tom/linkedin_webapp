@@ -4,8 +4,9 @@ export function Projects() {
     return(
         <>
             <h1>This is the Projects Page</h1>
-
-            <h2>At the moment, I don't have any (big) projects to put here, but check out my github for smaller data science and optimisation problems!</h2>
+            <iframe src="https://not-just-tom.github.io" width="100%" height="300">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
         </>
     )
 }

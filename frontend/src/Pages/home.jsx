@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom" 
+import "./home.css"
 
 export function Home() {
     return(
         <>
-            <h1>This is the Home Page</h1>
-            <br/>
-            <br/>
-            <br/>
-            <test>Test</test>
+
+            <phil>This is the Home Page</phil>
+
+            
+            <input type='text' id='input' name='input' placeholder='Type here to chat!'/>
+            
+
             <outlet/>
         </>
     )
