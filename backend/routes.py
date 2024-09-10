@@ -1,11 +1,16 @@
 from app import app, db
-from flask import request, jsonify
+from flask import request, jsonify, render_template
 from models import Member
-from chatbot.chat import get_response
+
+
 
 # chatbot functions
 
-#
+@app.route("/", methods=['GET'])
+def index_get():
+    render_template('index.html')
+
+
 
 # Get all members
 @app.route("/api/members",methods=["GET"])
@@ -52,7 +57,7 @@ def delete_member(id):
         db.session.rollback()
         return jsonify({"error":str(e)}), 500
     
-# Update member (maybe I should have really done it CRUD)
+# Update member (maybe I should have really ordered it CRUD)
 @app.route("/api/friends/<int:id>",methods=["PATCH"])
 def update_member(id):
     try:
