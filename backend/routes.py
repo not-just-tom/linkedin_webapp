@@ -1,15 +1,7 @@
 from app import app, db
-from flask import request, jsonify, render_template
+from flask import request, jsonify, json
 from models import Member
-
-
-
-# chatbot functions
-
-@app.route("/", methods=['GET'])
-def index_get():
-    render_template('index.html')
-
+from chatbot.chat import get_response
 
 
 # Get all members
@@ -60,6 +52,7 @@ def delete_member(id):
 # Update member (maybe I should have really ordered it CRUD)
 @app.route("/api/friends/<int:id>",methods=["PATCH"])
 def update_member(id):
+
     try:
         friend = Member.query.get(id)
         if friend is None:
@@ -75,3 +68,23 @@ def update_member(id):
     except Exception as e:
         db.session.rollback()
         return jsonify({"error":str(e)}), 500
+    
+
+# chatbot functions
+
+@app.route("/api/chat",methods=["POST"])
+def predict():
+    try:
+        text = request.get_json()
+        if not text:
+            return jsonify({"error": "Text data is missing"}), 400
+        chat = text["message"]
+        response = get_response(chat)
+
+        print(response)
+        print(jsonify(response))
+        return jsonify(response)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+

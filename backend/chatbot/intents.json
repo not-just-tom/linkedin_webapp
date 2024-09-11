@@ -63,6 +63,102 @@
         ]
       },
       {
+        "tag": "creation",
+        "patterns": [
+          "creation",
+          "how did you create phil",
+          "how were you made",
+          "how were you coded",
+          "how were you created",
+          "did you code phil comepletely",
+          "where did you find the code for phil"
+        ],
+        "responses": [
+          "I was coded using the Pytorch Library and was trained on a minimal prescriptive intents.json file, as Tom believed it was too risky to train corpus on a larger dataset-so I don't claim things that are wrong! This does unfortunately mean I do not reply as conversationally. My code is in the github repo for the website under the file 'chatbot'. Tom is also working on a conversational chatbot trained on the Cornell Movie Corpus dataset, which you will see on the Projects page soon!"
+        ]
+      },
+      {
+        "tag": "CV",
+        "patterns": [
+          "Talk about the CV",
+          "Tell me about the CV",
+          "CV",
+          "Tell me about their CV",
+          "Tell me about your CV",
+          "Where is his CV",
+          "What is your CV like"
+          
+        ],
+        "responses": [
+          "You can find a link the pdf form of Tom's CV on the Abouts page - Tom will code me to give it directly to you soon!"
+        ]
+      },
+      {
+        "tag": "professional",
+        "patterns": [
+          "Professional",
+          "real-life",
+          "What hands-on experience do you have",
+          "Do you have professional experience",
+          "have you worked in a company",
+          "what experience do you have working with a team",
+          "does tom have expereince working in a team",
+          "what jobs have you held",
+          "have you completed an internship"
+        ],
+        "responses": [
+          "Tom has a bunch of different experiences: I will divide them into Professional, Academic and Hobby Projects (like me!), and you can find all of them in the Abouts Page, or type any of those 3 words to hear more about that category (all words also link to this sentence so repeat the word if i repeat)",
+          "Tom has worked in a number of jobs and roles across Mathematics and Computer Science. I will list them here eventually, but highlights include being headhunted to join a startup as a backend dev after their reputation spread following two years working as the webmaster of their university student page where they took on several fullstack development projects."
+        ]
+      },
+      {
+        "tag": "academic",
+        "patterns": ["academic",
+         "what academic does he have", 
+         "what academic work have you done",
+        "what projects did you work on during university"],
+        "responses": [
+          "Tom worked as a Webmaster of the university for the entire time they were studying as a part of their Batchelors'. In addition to this they also completed many data science projects, a particular strong suit of Tom's, which brought some of their highest achieving marks: 78%"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "qualifications",
+        "patterns": [
+          "What degrees do you have?",
+          "What did you study",
+          "What did he study",
+          "What did they study",
+          "Where did you study",
+          "What kind of degree do you have",
+          "What is your degree",
+          "What are his degrees in",
+          "Where did he study",
+          "Where did they study",
+          "Tell me about the degrees"
+        ],
+        "responses": [
+          "Tom first studied Mathematics at the University of Oxford, then moved to the University of Bath to continue their studies into Mathematics with Data Science, where they are currently studying. You can ask me more about the scholarships they were awarded at both institutions if you want!"
+        ]
+      },
+      {
+        "tag": "scholarship",
+        "patterns": [
+          "Tell me about his scholarships",
+          "Tell me about your scholarships",
+          "What kind of scholar are you",
+          "Did you get financial help as a scholar",
+          "What are your scholarships"
+        ],
+        "responses": [
+          "In Bath, Tom has been awarded the 'Global Leader Scholarship' and £5,000 off their tutition fees for recognition of his contributions to leadership positions worldwide, as well as their work volunteering internationally. They were also awarded a grant of £3,000 as an 'Expanding Horizons Scholar' whilst studing at Oxford to fund a 3 month trip to Lima, Peru to teach Mathematics to students."
+        ]
+      },
+      {
         "tag": "delivery",
         "patterns": [
           "How long does delivery take?",
