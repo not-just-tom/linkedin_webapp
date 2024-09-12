@@ -1,16 +1,16 @@
 phil {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 200px;
-    font-size:xx-large;
+    font-size:2em;
+    animation: fadeIn 10s;
+    font-weight: 700;
 }
 
 input {
     text-align: center;
-    font-size: x-large;
+    font-size: 1em;
     font-style: italic;
-    width: 50%;
+    width: 60%;
     height: 3em;
     background-color: var(--background-col);
     color: white;
@@ -28,4 +28,48 @@ input::placeholder {
     font-size: 1em;
     color: white;
 }
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-col);
+    border-style: hidden;
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+    margin-right: auto;
+    margin-left:auto;
+
+}
+
+.fade {
+    animation: fadeInPara 10s;
+}
+
+.response {
+    animation: fadeIn 5s;
+}
+
+.reply {
+    animation: fadeInReply 10s
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeInPara {
+    0% {opacity: 0;}
+    33% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeInReply {
+    0% {opacity: 0;}
+    66% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 

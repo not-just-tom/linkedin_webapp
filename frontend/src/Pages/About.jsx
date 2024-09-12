@@ -23,6 +23,7 @@ export function About() {
                     <li>    
                     <h4>Retirement and Investment Actuarial Intern, Aon</h4>
                     <p>3 months using VBA, Python modelling financial markets</p>
+                    <br/>
                     </li>
                    
 

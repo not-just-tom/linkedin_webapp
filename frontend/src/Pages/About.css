@@ -11,7 +11,10 @@ header {
 
 content {
     display: flex;
-    justify-content: space-between;
-    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right:auto;
     margin-left:auto;
 }
+
+

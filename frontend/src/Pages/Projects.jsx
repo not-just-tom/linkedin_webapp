@@ -2,11 +2,9 @@
 
 export function Projects() {
     return(
-        <>
+        <div>
             <h1>This is the Projects Page</h1>
-            <iframe src="https://not-just-tom.github.io" width="100%" height="300">
-                <p>Your browser does not support iframes.</p>
-            </iframe>
-        </>
+            <p>There are no large projects Tom is hosting here currently. I suggest you look at their github page to see some examples of small data science projects!</p>
+        </div>
     )
 }

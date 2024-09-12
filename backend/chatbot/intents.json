@@ -66,12 +66,16 @@
         "tag": "creation",
         "patterns": [
           "creation",
+          "created",
+          "create",
           "how did you create phil",
           "how were you made",
           "how were you coded",
           "how were you created",
           "did you code phil comepletely",
-          "where did you find the code for phil"
+          "where did you find the code for phil",
+          "how was phil made",
+          "how did you code phil"
         ],
         "responses": [
           "I was coded using the Pytorch Library and was trained on a minimal prescriptive intents.json file, as Tom believed it was too risky to train corpus on a larger dataset-so I don't claim things that are wrong! This does unfortunately mean I do not reply as conversationally. My code is in the github repo for the website under the file 'chatbot'. Tom is also working on a conversational chatbot trained on the Cornell Movie Corpus dataset, which you will see on the Projects page soon!"
@@ -116,15 +120,23 @@
         "patterns": ["academic",
          "what academic does he have", 
          "what academic work have you done",
-        "what projects did you work on during university"],
+        "what projects did you work on during university", 
+        "did you have any projects in university",
+        "what projects did you complete in University",
+        "What code did you write as a part of your degree",
+        "What code did you write as a part of your studies"],
         "responses": [
-          "Tom worked as a Webmaster of the university for the entire time they were studying as a part of their Batchelors'. In addition to this they also completed many data science projects, a particular strong suit of Tom's, which brought some of their highest achieving marks: 78%"
+          "Tom has a bunch of different experiences: I will divide them into Professional, Academic and Hobby Projects (like me!), and you can find all of them in the Abouts Page, or type any of those 3 words to hear more about that category (all words also link to this sentence so repeat the word if i repeat)",
+          "Tom worked as a Webmaster of the university for the entire time they were studying as a part of their Batchelors'. In addition to this they also completed many data science projects, a particular strong suit of Tom's, which brought some of their highest marks ranging all the way up to 78%"
         ]
       },
       {
-        "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        "tag": "Hobby",
+        "patterns": ["Hobbies", "Hobby", "What hobbies do you have", "What have you coded in your spare time", 
+        "what personal code projects have you got",
+        "do you have personal code projects"],
+        "responses": ["Tom often codes Data Science and financial optimisation projects, some of which you can find on thier github page, but they also enjoy coding websites and working with 'presentable' fun projects, like websites and other JS code projects, which will eventually be hosted here on the Projects Page.",
+        "Tom enjoys developing alphas on historical data and comparing performances, and is currently working on a porfolio optimisation project as a part of a team, using machine learning to diversify a portfolio to reduce risk for a defined profit."]
       },
       {
         "tag": "qualifications",
