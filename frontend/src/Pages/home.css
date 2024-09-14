@@ -33,11 +33,10 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--background-col);
-    border-style: hidden;
+
     font-size: 1em;
     font-weight: 600;
-    color: white;
+    color: black;
     margin-right: auto;
     margin-left:auto;
 
