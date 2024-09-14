@@ -46,7 +46,7 @@ export function Home() {
         {/* User input form */}
         <form className="reply" onSubmit={handleSubmit}>
           <input type="text" id="userInput" value={userInput} placeholder='Type here to chat!' onChange={(e) => setUserInput(e.target.value)} />
-          <button type="submit">Submit</button>
+          <button type="submit" onClick={handleSubmit} onTouchEnd={handleSubmit}>Submit</button>
         </form>
       </div>
     );
