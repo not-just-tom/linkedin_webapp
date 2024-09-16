@@ -9,8 +9,8 @@ from chatbot.nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-print(os.getcwd())
-with open("intents.json") as json_data:
+intents_file = os.path.join(os.getcwd(),"..","backend", "chatbot", "intents.json")
+with open(intents_file) as json_data:
     intents = json.load(json_data)
 
 
