@@ -1,6 +1,6 @@
 import random
 import json
-
+import os
 import torch
 
 
@@ -9,8 +9,10 @@ from chatbot.nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('chatbot\intents.json', 'r') as json_data:
+print(os.getcwd())
+with open("intents.json") as json_data:
     intents = json.load(json_data)
+
 
 FILE = "backend\chatbot\data.pth"
 data = torch.load(FILE)
