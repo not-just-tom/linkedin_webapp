@@ -10,12 +10,12 @@ from chatbot.nltk_utils import bag_of_words, tokenize
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 intents_file = os.path.join(os.getcwd(),"..","backend", "chatbot", "intents.json")
+data_path = os.path.join(os.getcwd(),"..","backend", "chatbot", "data.pth")
 with open(intents_file) as json_data:
     intents = json.load(json_data)
 
 
-FILE = "backend\chatbot\data.pth"
-data = torch.load(FILE)
+data = torch.load(data_path)
 
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]
