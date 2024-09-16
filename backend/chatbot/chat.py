@@ -15,7 +15,7 @@ with open(intents_file) as json_data:
     intents = json.load(json_data)
 
 
-data = torch.load(data_path)
+data = torch.load(data_path, weights_only=True)
 
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]
