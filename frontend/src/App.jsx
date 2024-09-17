@@ -10,7 +10,7 @@ import Footer from './Components/Footer';
 
 
 function App() {
-
+  const port = process.env.PORT || 5000;
 
   return (
 
