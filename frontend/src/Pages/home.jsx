@@ -13,7 +13,7 @@ export function Home() {
        // setMessages([...messages, { sender: 'User', text: userInput }]);
 
         // Send the user input to the backend API
-        const response = await fetch('http://localhost:5000/api/chat', {
+        const response = await fetch('http://0.0.0.0:5000/api/chat', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
