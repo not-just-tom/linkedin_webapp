@@ -7,10 +7,10 @@ import { Projects } from "./Pages/Projects"
 import { About } from "./Pages/About"
 import { Layout } from './Layout';
 import Footer from './Components/Footer';
-
+const port = process.env.PORT || 5000;
 
 function App() {
-  const port = process.env.PORT || 5000;
+  
 
   return (
 
